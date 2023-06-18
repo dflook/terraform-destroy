@@ -36,7 +36,7 @@ inputs:
 
 runs:
   using: docker
-  image: docker://ghcr.io/dflook/terraform-github-actions@sha256:0029a9f7084f127d23793f18dea64b9577ed111e5ababfa375aca7ae7b5ec537
+  image: docker://ghcr.io/dflook/terraform-github-actions@sha256:52ac56dc9bdb6ddd7cee76a8b9ded143dbbca4f29760ca358aa6617800a9a040
   entrypoint: /entrypoints/destroy.sh
 
 branding:
